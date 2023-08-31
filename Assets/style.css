@@ -1,3 +1,44 @@
 * {
-    
+    background-color: darkcyan;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+.header {
+    padding: 25px;
+   
+    color:khaki;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    display: inline;
+}
+
+.header nav {
+    padding-top: 20px;
+}
+.header nav ul {
+list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+}
+
+#my-picture {
+    max-height: 200px;
+}
+
+.about-me {
+    display: inline-flex;
+}
+
+.work {
+    display: inline-flex;
+}
+
+#project1-img {
+    max-height: 400px;
+}
+
