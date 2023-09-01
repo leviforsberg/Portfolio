@@ -1,44 +1,94 @@
 * {
-    background-color: darkcyan;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .header {
-    padding: 25px;
-   
-    color:khaki;
+    padding: 24px;
+    
+    background-color: darkcyan;
+    
     display: flex;
     justify-content: space-between;
 }
 
 .header h1 {
     display: inline;
+    color: khaki;
+    background-color: darkcyan;
 }
 
 .header nav {
-    padding-top: 20px;
+    padding-top: 12px;
+    background-color: darkcyan;
 }
 .header nav ul {
 list-style-type: none;
+background-color: darkcyan;
 }
 
 .header nav ul li {
     display: inline-block;
+    background-color: darkcyan;
+}
+
+body {
+    background-color: khaki;
 }
 
 #my-picture {
     max-height: 200px;
+    border: solid darkcyan;
+    margin: 5px;
 }
 
 .about-me {
     display: inline-flex;
+    margin: 20px;
+    
 }
 
 .work {
     display: inline-flex;
+    margin: 20px;
 }
 
 #project1-img {
     max-height: 400px;
 }
 
+.contact-me {
+    padding: 24px;
+    
+    background-color: darkcyan;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-me h2 {
+    display: inline;
+    color: khaki;
+    background-color: darkcyan;
+}
+
+.contact-me nav {
+    padding-top: 12px;
+    background-color: darkcyan;
+}
+.contact-me nav ul {
+list-style-type: none;
+background-color: darkcyan;
+}
+
+.contact-me nav ul li {
+    display: inline-block;
+    background-color: darkcyan;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
