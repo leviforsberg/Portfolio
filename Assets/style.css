@@ -42,13 +42,13 @@ body {
 }
 
 .about-me {
-    display: inline-flex;
+     
     margin: 20px;
     
 }
 
 .work {
-    display: inline-flex;
+    
     margin: 20px;
 }
 
